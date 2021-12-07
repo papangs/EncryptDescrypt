@@ -2,13 +2,20 @@ package com.controller;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
+import java.util.Arrays;
+import java.util.Base64;
 
+import javax.crypto.Cipher;
+import javax.crypto.spec.SecretKeySpec;
 import org.jpos.iso.ISOException;
 import org.jpos.iso.ISOMsg;
 import org.jpos.iso.ISOUtil;
@@ -36,61 +43,47 @@ public class Request {
 	private String responseCode = null;
 	private String responseDesc = null;
 
-	AtomicLong stan = new AtomicLong();
+	private static SecretKeySpec secretKey;
+	private static byte[] key;
 
-	private static ISOMsg loadPackager() {
-		ISOMsg isoMsg = new ISOMsg();
+	public static void setKey(String myKey) {
+		MessageDigest sha = null;
 		try {
-
-			InputStream is = new ClassPathResource("cfg/pdamPackager.xml").getInputStream();
-
-			isoMsg.setPackager(new GenericPackager(is));
-
-		} catch (ISOException e) {
+			key = myKey.getBytes("UTF-8");
+			sha = MessageDigest.getInstance("SHA-1");
+			key = sha.digest(key);
+			key = Arrays.copyOf(key, 16);
+			secretKey = new SecretKeySpec(key, "AES");
+		} catch (NoSuchAlgorithmException e) {
 			e.printStackTrace();
-		} catch (IOException e) {
+		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
-		return isoMsg;
 	}
 
-	public static String fromISOtoJSON(String isoMessage) throws ISOException {
-		byte[] isoMsgByte = new byte[isoMessage.length()];
-		for (int i = 0; i < isoMsgByte.length; i++) {
-			isoMsgByte[i] = (byte) (int) isoMessage.charAt(i);
-		}
-
-		ISOMsg packageMsg = loadPackager();
-		packageMsg.unpack(isoMsgByte);
-
-		JSONObject jsonObject = new JSONObject();
-		jsonObject.put("MTI", packageMsg.getMTI());
-		for (int i = 1; i <= packageMsg.getMaxField(); i++) {
-			if (packageMsg.hasField(i))
-				jsonObject.put(i, packageMsg.getString(i));
-		}
-		return jsonObject.toJSONString();
-	}
-	
-	public boolean validateDataPelanggan(ReqInqTirtanadiDataPelangganBit reqTnBit) {
-
+	public static String encrypt(String strToEncrypt, String secret) {
 		try {
-
-			if (reqTnBit.getIdPelanggan().length() != 10) {
-				responseCode = "01";
-				responseDesc = "Length Id Pelanggan Tidak Sama";
-				return false;
-			}
-
-			return true;
-
+			setKey(secret);
+			Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
+			cipher.init(Cipher.ENCRYPT_MODE, secretKey);
+			return Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes("UTF-8")));
 		} catch (Exception e) {
-			e.printStackTrace();
-			return false;
+			System.out.println("Error while encrypting: " + e.toString());
 		}
-
+		return null;
 	}
 
+	public static String decrypt(String strToDecrypt, String secret) {
+		try {
+			setKey(secret);
+			Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5PADDING");
+			cipher.init(Cipher.DECRYPT_MODE, secretKey);
+			return new String(cipher.doFinal(Base64.getDecoder().decode(strToDecrypt)));
+		} catch (Exception e) {
+			System.out.println("Error while decrypting: " + e.toString());
+		}
+		return null;
+	}
 
 	@PostMapping(value = "/inquiry")
 	public ResInqTirtanadi getInquiry(@RequestBody String body) {
@@ -129,7 +122,8 @@ public class Request {
 				packageMsg.set(41, bit41);
 				packageMsg.set(65, "");
 
-				logger.info("[inquiry-wstirtanadi] STAN MTI (SEMUA TUNGGAKAN PELANGGAN) : " + packageMsg.getString("11"));
+				logger.info(
+						"[inquiry-wstirtanadi] STAN MTI (SEMUA TUNGGAKAN PELANGGAN) : " + packageMsg.getString("11"));
 
 				byte[] isoByteMsg = packageMsg.pack();
 
@@ -144,7 +138,8 @@ public class Request {
 				String unpackRequest = fromISOtoJSON(request.substring(4, request.length()));
 
 				logger.info("[inquiry-wstirtanadi] Request to Biller MTI (SEMUA TUNGGAKAN PELANGGAN) : " + request);
-				logger.info("[inquiry-wstirtanadi] Unpack Request to Biller MTI (SEMUA TUNGGAKAN PELANGGAN) : " + unpackRequest);
+				logger.info("[inquiry-wstirtanadi] Unpack Request to Biller MTI (SEMUA TUNGGAKAN PELANGGAN) : "
+						+ unpackRequest);
 
 				String resps = client.sendMessage(request);
 
@@ -215,38 +210,38 @@ public class Request {
 
 						Integer arrayLength = tagihan.length();
 						String detailLength = tagihan.substring(0, 2);
-						Integer loop = arrayLength
-								/ (Integer.valueOf(detailLength) + detailLength.length());
+						Integer loop = arrayLength / (Integer.valueOf(detailLength) + detailLength.length());
 
 						Integer counter2 = 0;
 
 						List<HashMap<String, Object>> bit48array = new ArrayList<HashMap<String, Object>>();
-						
+
 						for (int i = 1; i <= loop; i++) {
-							
+
 							int beginIndex = counter2 + detailLength.length();
-							int endIndex = counter2 + Integer.valueOf(detailLength)
-									+ detailLength.length();
+							int endIndex = counter2 + Integer.valueOf(detailLength) + detailLength.length();
 
 							String detail = tagihan.substring(beginIndex, endIndex);
 							counter2 = counter2 + Integer.valueOf(detailLength) + detailLength.length();
-							
+
 							HashMap<String, Object> map481 = new HashMap<String, Object>();
 							map481.put("periode", detail.substring(0, 6));
 							map481.put("standakhir", Integer.valueOf(detail.substring(6, 6 + 9)));
 							map481.put("pemakaianM3", Integer.valueOf(detail.substring(6 + 9, 6 + 9 + 9)));
 							map481.put("biaya", Integer.valueOf(detail.substring(6 + 9 + 9, 6 + 9 + 9 + 9)));
 							map481.put("denda", Integer.valueOf(detail.substring(6 + 9 + 9 + 9, 6 + 9 + 9 + 9 + 9)));
-							map481.put("adm", Integer.valueOf(detail.substring(6 + 9 + 9 + 9 + 9, 6 + 9 + 9 + 9 + 9 + 9)));
-							map481.put("total", Integer.valueOf(detail.substring(6 + 9 + 9 + 9 + 9 + 9, 6 + 9 + 9 + 9 + 9 + 9 + 9)));
+							map481.put("adm",
+									Integer.valueOf(detail.substring(6 + 9 + 9 + 9 + 9, 6 + 9 + 9 + 9 + 9 + 9)));
+							map481.put("total", Integer
+									.valueOf(detail.substring(6 + 9 + 9 + 9 + 9 + 9, 6 + 9 + 9 + 9 + 9 + 9 + 9)));
 
 							bit48array.add(map481);
 						}
-						
+
 						List<HashMap<String, Object>> list = new ArrayList<HashMap<String, Object>>();
-						
+
 						for (HashMap<String, Object> hashMap : bit48array) {
-							
+
 							HashMap<String, Object> res = new HashMap<String, Object>();
 							res.put("npa", HasilNpa);
 							res.put("nama", HasilNama);
@@ -262,15 +257,15 @@ public class Request {
 							res.put("status", "");
 
 							list.add(res);
-							
+
 						}
 
 						String hasil = mapper.writeValueAsString(list);
-						
+
 						logger.info("[inquiry-wstirtanadi] SETELAH DI MAPPING ULANG : " + hasil);
-						
+
 						tirtanadiHasil = mapper.readValue(hasil, List.class);
-						
+
 						reqResIso.setRescode(result.get("40").toString());
 						reqResIso.setRescodedesc("Data Ketemu");
 						reqResIso.setReserrorcode(result.get("57").toString());
@@ -283,7 +278,7 @@ public class Request {
 						resTirtanadi.setResInqTirtanadiHasil(tirtanadiHasil);
 
 						return resTirtanadi;
-						
+
 					} else if (result.get("40").equals("002")) {
 
 						reqResIso.setRescode(result.get("40").toString());
@@ -341,31 +336,6 @@ public class Request {
 
 			return resTirtanadi;
 
-		}
-
-	}
-
-	public boolean validatePay(ReqPayTirtanadiBit reqTnBit) {
-
-		try {
-
-			if (reqTnBit.getIdPelanggan().length() != 10) {
-				responseCode = "01";
-				responseDesc = "Length Id Pelanggan Tidak Sama";
-				return false;
-			}
-
-			if (reqTnBit.getPeriode().length() != 6) {
-				responseCode = "02";
-				responseDesc = "Length Periode Tidak Sama";
-				return false;
-			}
-
-			return true;
-
-		} catch (Exception e) {
-			e.printStackTrace();
-			return false;
 		}
 
 	}
@@ -646,5 +616,5 @@ public class Request {
 		}
 
 	}
-	
+
 }
