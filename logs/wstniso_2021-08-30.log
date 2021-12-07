@@ -1,0 +1,11 @@
+2021-08-30 14:56:42.077[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 21212 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-30 14:56:42.083[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-30 14:56:45.735[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 4.178 seconds (JVM running for 5.558)
+2021-08-30 14:56:56.551[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-30 14:56:56.692[                 ]INFO [m.controller.Request:148][request-wstirtanadi] bit41 : 20000002
+2021-08-30 14:56:56.706[                 ]INFO [m.controller.Request:169][request-wstirtanadi] Request to Biller : 00730100822000008280000080000000000000000830145656000001230120016500120000002
+2021-08-30 14:56:56.706[                 ]INFO [m.controller.Request:170][request-wstirtanadi] Unpack Request to Biller : {"33":"2301200165","65":"","MTI":"0100","7":"0830145656","39":"001","41":"20000002","11":"000001"}
+2021-08-30 14:56:57.104[                 ]INFO [m.controller.Request:176][request-wstirtanadi] Response Iso Biller : {"48":"07115LENI RAHMA YULI13BALOHO INDAH 04NA.3022315\/GG.TELUK DALAM04null04null","33":"2301200165","65":"","MTI":"0110","7":"0830145344","39":"001","40":"001","25":"0007","41":"20000002","57":"000","11":"000001","12":"0830145645"}
+2021-08-30 14:56:57.130[                 ]INFO [m.controller.Request:323][request-wstirtanadi] Request to Biller : 00730100822000008280000080000000000000000830145657000003230120016500420000002
+2021-08-30 14:56:57.130[                 ]INFO [m.controller.Request:324][request-wstirtanadi] Unpack Request to Biller : {"33":"2301200165","65":"","MTI":"0100","7":"0830145657","39":"004","41":"20000002","11":"000003"}
+2021-08-30 14:56:58.340[                 ]INFO [m.controller.Request:330][request-wstirtanadi] Response Iso Biller : {"33":"2301200165","65":"","MTI":"0110","7":"0830145657","39":"004","40":"002","25":"0000","41":"20000002","57":"000","11":"000003","12":"0830145646"}

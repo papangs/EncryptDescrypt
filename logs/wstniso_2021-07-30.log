@@ -1,0 +1,3 @@
+2021-07-30 09:21:48.488[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 24148 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-07-30 09:21:48.536[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-07-30 09:21:56.963[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 12.436 seconds (JVM running for 19.335)

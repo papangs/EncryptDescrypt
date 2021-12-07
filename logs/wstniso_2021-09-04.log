@@ -1,0 +1,77 @@
+2021-09-04 20:21:27.795[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 15328 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-09-04 20:21:27.802[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-09-04 20:21:32.367[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 5.588 seconds (JVM running for 9.059)
+2021-09-04 20:22:53.121[                 ]INFO [m.controller.Request:116][inquiry-wstirtanadi] Start Inquiry
+2021-09-04 20:22:53.316[                 ]INFO [m.controller.Request:142][inquiry-wstirtanadi] bit41 : 20000002
+2021-09-04 20:22:53.327[                 ]INFO [m.controller.Request:163][inquiry-wstirtanadi] Request to Biller MTI 1 : 00730100822000008280000080000000000000000904202253000001230120016100120000002
+2021-09-04 20:22:53.328[                 ]INFO [m.controller.Request:164][inquiry-wstirtanadi] Unpack Request to Biller MTI 1 : {"33":"2301200161","65":"","MTI":"0100","7":"0904202253","39":"001","41":"20000002","11":"000001"}
+2021-09-04 20:23:01.009[                 ]INFO [m.controller.Request:39][clientSocket-wstirtanadi] Start Socket to SendMessage
+2021-09-04 20:23:01.013[                 ]INFO [m.controller.Request:54][clientSocket-wstirtanadi] Data Socket : [B@16d5c6e4
+2021-09-04 20:23:01.014[                 ]INFO [m.controller.Request:59][clientSocket-wstirtanadi] Response Data Socket : SUCCES00790110823000000380008000000000000000000904202144000002090420225900100020000009001
+2021-09-04 20:23:01.015[                 ]INFO [m.controller.Request:168][inquiry-wstirtanadi] Response Iso Biller MTI 1 : SUCCES00790110823000000380008000000000000000000904202144000002090420225900100020000009001
+2021-09-04 20:23:57.965[                 ]INFO [m.controller.Request:116][inquiry-wstirtanadi] Start Inquiry
+2021-09-04 20:23:58.008[                 ]INFO [m.controller.Request:142][inquiry-wstirtanadi] bit41 : 20000002
+2021-09-04 20:23:58.015[                 ]INFO [m.controller.Request:163][inquiry-wstirtanadi] Request to Biller MTI 1 : 00730100822000008280000080000000000000000904202358000002230120016100120000002
+2021-09-04 20:23:58.015[                 ]INFO [m.controller.Request:164][inquiry-wstirtanadi] Unpack Request to Biller MTI 1 : {"33":"2301200161","65":"","MTI":"0100","7":"0904202358","39":"001","41":"20000002","11":"000002"}
+2021-09-04 20:24:01.926[                 ]INFO [m.controller.Request:39][clientSocket-wstirtanadi] Start Socket to SendMessage
+2021-09-04 20:24:02.572[                 ]INFO [m.controller.Request:54][clientSocket-wstirtanadi] Data Socket : [B@24c9f99f
+2021-09-04 20:24:02.591[                 ]INFO [m.controller.Request:59][clientSocket-wstirtanadi] Response Data Socket : SUCCES
+2021-09-04 20:24:03.385[                 ]INFO [m.controller.Request:54][clientSocket-wstirtanadi] Data Socket : [B@21cefacd
+2021-09-04 20:24:03.403[                 ]INFO [m.controller.Request:59][clientSocket-wstirtanadi] Response Data Socket : 00790110823000000380008000000000000000000904202144000002090420240400100020000009001
+2021-09-04 20:24:07.256[                 ]INFO [m.controller.Request:168][inquiry-wstirtanadi] Response Iso Biller MTI 1 : 00790110823000000380008000000000000000000904202144000002090420240400100020000009001
+2021-09-04 20:24:12.415[                 ]INFO [m.controller.Request:172][inquiry-wstirtanadi] Convert Response to Json MTI 1 : {"MTI":"0110","7":"0904202144","39":"001","40":"000","41":"20000009","57":"001","11":"000002","12":"0904202404"}
+2021-09-04 20:24:56.478[                 ]INFO [m.controller.Request:116][inquiry-wstirtanadi] Start Inquiry
+2021-09-04 20:24:56.521[                 ]INFO [m.controller.Request:142][inquiry-wstirtanadi] bit41 : 20000002
+2021-09-04 20:24:56.525[                 ]INFO [m.controller.Request:163][inquiry-wstirtanadi] Request to Biller MTI 1 : 00730100822000008280000080000000000000000904202456000003230120016500120000002
+2021-09-04 20:24:56.525[                 ]INFO [m.controller.Request:164][inquiry-wstirtanadi] Unpack Request to Biller MTI 1 : {"33":"2301200165","65":"","MTI":"0100","7":"0904202456","39":"001","41":"20000002","11":"000003"}
+2021-09-04 20:24:56.525[                 ]INFO [m.controller.Request:39][clientSocket-wstirtanadi] Start Socket to SendMessage
+2021-09-04 20:25:00.938[                 ]INFO [m.controller.Request:54][clientSocket-wstirtanadi] Data Socket : [B@6860de46
+2021-09-04 20:25:00.939[                 ]INFO [m.controller.Request:59][clientSocket-wstirtanadi] Response Data Socket : SUCCES
+2021-09-04 20:25:04.522[                 ]INFO [m.controller.Request:54][clientSocket-wstirtanadi] Data Socket : [B@3593c300
+2021-09-04 20:25:04.523[                 ]INFO [m.controller.Request:59][clientSocket-wstirtanadi] Response Data Socket : 00790110823000000380008000000000000000000904202144000002090420250500100020000009001
+2021-09-04 20:25:04.523[                 ]INFO [m.controller.Request:168][inquiry-wstirtanadi] Response Iso Biller MTI 1 : 00790110823000000380008000000000000000000904202144000002090420250500100020000009001
+2021-09-04 20:25:04.533[                 ]INFO [m.controller.Request:172][inquiry-wstirtanadi] Convert Response to Json MTI 1 : {"MTI":"0110","7":"0904202144","39":"001","40":"000","41":"20000009","57":"001","11":"000002","12":"0904202505"}
+2021-09-04 20:25:26.280[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 23504 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-09-04 20:25:26.286[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-09-04 20:25:29.830[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 4.136 seconds (JVM running for 5.457)
+2021-09-04 20:25:36.203[                 ]INFO [m.controller.Request:116][inquiry-wstirtanadi] Start Inquiry
+2021-09-04 20:25:36.319[                 ]INFO [m.controller.Request:142][inquiry-wstirtanadi] bit41 : 20000009
+2021-09-04 20:25:36.331[                 ]INFO [m.controller.Request:163][inquiry-wstirtanadi] Request to Biller MTI 1 : 00730100822000008280000080000000000000000904202536000001230120016500120000009
+2021-09-04 20:25:36.331[                 ]INFO [m.controller.Request:164][inquiry-wstirtanadi] Unpack Request to Biller MTI 1 : {"33":"2301200165","65":"","MTI":"0100","7":"0904202536","39":"001","41":"20000009","11":"000001"}
+2021-09-04 20:25:36.331[                 ]INFO [m.controller.Request:39][clientSocket-wstirtanadi] Start Socket to SendMessage
+2021-09-04 20:25:40.710[                 ]INFO [m.controller.Request:54][clientSocket-wstirtanadi] Data Socket : [B@12f9705b
+2021-09-04 20:25:40.711[                 ]INFO [m.controller.Request:59][clientSocket-wstirtanadi] Response Data Socket : SUCCES
+2021-09-04 20:25:43.670[                 ]INFO [m.controller.Request:54][clientSocket-wstirtanadi] Data Socket : [B@7d938843
+2021-09-04 20:25:43.671[                 ]INFO [m.controller.Request:59][clientSocket-wstirtanadi] Response Data Socket : 00790110823000000380008000000000000000000904202144000002090420254400100020000009001
+2021-09-04 20:25:43.672[                 ]INFO [m.controller.Request:168][inquiry-wstirtanadi] Response Iso Biller MTI 1 : 00790110823000000380008000000000000000000904202144000002090420254400100020000009001
+2021-09-04 20:25:43.687[                 ]INFO [m.controller.Request:172][inquiry-wstirtanadi] Convert Response to Json MTI 1 : {"MTI":"0110","7":"0904202144","39":"001","40":"000","41":"20000009","57":"001","11":"000002","12":"0904202544"}
+2021-09-04 20:26:08.050[                 ]INFO [m.controller.Request:116][inquiry-wstirtanadi] Start Inquiry
+2021-09-04 20:26:08.094[                 ]INFO [m.controller.Request:142][inquiry-wstirtanadi] bit41 : 20000009
+2021-09-04 20:26:08.098[                 ]INFO [m.controller.Request:163][inquiry-wstirtanadi] Request to Biller MTI 1 : 00730100822000008280000080000000000000000904202608000002230120016500120000009
+2021-09-04 20:26:08.099[                 ]INFO [m.controller.Request:164][inquiry-wstirtanadi] Unpack Request to Biller MTI 1 : {"33":"2301200165","65":"","MTI":"0100","7":"0904202608","39":"001","41":"20000009","11":"000002"}
+2021-09-04 20:26:08.099[                 ]INFO [m.controller.Request:39][clientSocket-wstirtanadi] Start Socket to SendMessage
+2021-09-04 20:26:16.573[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 25976 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-09-04 20:26:16.580[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-09-04 20:26:19.847[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 3.765 seconds (JVM running for 5.048)
+2021-09-04 21:22:39.344[                 ]INFO [m.controller.Request:116][inquiry-wstirtanadi] Start Inquiry
+2021-09-04 21:22:39.509[                 ]INFO [m.controller.Request:142][inquiry-wstirtanadi] bit41 : 20000002
+2021-09-04 21:22:39.526[                 ]INFO [m.controller.Request:163][inquiry-wstirtanadi] Request to Biller MTI 1 : 00730100822000008280000080000000000000000904212239000001014505001200120000002
+2021-09-04 21:22:39.526[                 ]INFO [m.controller.Request:164][inquiry-wstirtanadi] Unpack Request to Biller MTI 1 : {"33":"0145050012","65":"","MTI":"0100","7":"0904212239","39":"001","41":"20000002","11":"000001"}
+2021-09-04 21:22:39.526[                 ]INFO [m.controller.Request:39][clientSocket-wstirtanadi] Start Socket to SendMessage
+2021-09-04 21:22:43.982[                 ]INFO [m.controller.Request:54][clientSocket-wstirtanadi] Data Socket : [B@7ec14549
+2021-09-04 21:22:43.983[                 ]INFO [m.controller.Request:59][clientSocket-wstirtanadi] Response Data Socket : SUCCES
+2021-09-04 21:22:45.624[                 ]INFO [m.controller.Request:54][clientSocket-wstirtanadi] Data Socket : [B@6d147b14
+2021-09-04 21:22:45.625[                 ]INFO [m.controller.Request:59][clientSocket-wstirtanadi] Response Data Socket : 00790110823000000380008000000000000000000904202144000002090421224600100020000009001
+2021-09-04 21:22:45.625[                 ]INFO [m.controller.Request:168][inquiry-wstirtanadi] Response Iso Biller MTI 1 : 00790110823000000380008000000000000000000904202144000002090421224600100020000009001
+2021-09-04 21:22:45.637[                 ]INFO [m.controller.Request:172][inquiry-wstirtanadi] Convert Response to Json MTI 1 : {"MTI":"0110","7":"0904202144","39":"001","40":"000","41":"20000009","57":"001","11":"000002","12":"0904212246"}
+2021-09-04 21:23:29.991[                 ]INFO [m.controller.Request:116][inquiry-wstirtanadi] Start Inquiry
+2021-09-04 21:23:30.035[                 ]INFO [m.controller.Request:142][inquiry-wstirtanadi] bit41 : 20000002
+2021-09-04 21:23:30.038[                 ]INFO [m.controller.Request:163][inquiry-wstirtanadi] Request to Biller MTI 1 : 00730100822000008280000080000000000000000904212330000002014505001300120000002
+2021-09-04 21:23:30.039[                 ]INFO [m.controller.Request:164][inquiry-wstirtanadi] Unpack Request to Biller MTI 1 : {"33":"0145050013","65":"","MTI":"0100","7":"0904212330","39":"001","41":"20000002","11":"000002"}
+2021-09-04 21:23:30.039[                 ]INFO [m.controller.Request:39][clientSocket-wstirtanadi] Start Socket to SendMessage
+2021-09-04 21:23:34.912[                 ]INFO [m.controller.Request:54][clientSocket-wstirtanadi] Data Socket : [B@540eb961
+2021-09-04 21:23:34.912[                 ]INFO [m.controller.Request:59][clientSocket-wstirtanadi] Response Data Socket : SUCCES
+2021-09-04 21:23:35.771[                 ]INFO [m.controller.Request:54][clientSocket-wstirtanadi] Data Socket : [B@3a6918b6
+2021-09-04 21:23:35.772[                 ]INFO [m.controller.Request:59][clientSocket-wstirtanadi] Response Data Socket : 00790110823000000380008000000000000000000904202144000002090421233600100020000009001
+2021-09-04 21:23:35.772[                 ]INFO [m.controller.Request:168][inquiry-wstirtanadi] Response Iso Biller MTI 1 : 00790110823000000380008000000000000000000904202144000002090421233600100020000009001
+2021-09-04 21:23:35.783[                 ]INFO [m.controller.Request:172][inquiry-wstirtanadi] Convert Response to Json MTI 1 : {"MTI":"0110","7":"0904202144","39":"001","40":"000","41":"20000009","57":"001","11":"000002","12":"0904212336"}

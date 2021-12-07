@@ -1,0 +1,169 @@
+2021-08-24 14:08:15.294[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 22808 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 14:08:15.301[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 14:08:21.257[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 7.033 seconds (JVM running for 11.779)
+2021-08-24 14:39:27.873[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 14:40:00.723[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 14:40:24.697[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 14:48:29.825[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 16104 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 14:48:29.828[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 14:48:32.224[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.741 seconds (JVM running for 3.528)
+2021-08-24 14:48:39.454[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:15:01.720[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 9788 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:15:01.724[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:15:04.168[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.8 seconds (JVM running for 3.628)
+2021-08-24 15:15:08.889[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:15:09.093[                 ]INFO [m.controller.Request:148][request-wstirtanadi] bit41 : 
+2021-08-24 15:15:09.103[                 ]INFO [m.controller.Request:171][request-wstirtanadi] Request Iso to Biller : 00730100822000008280000080000000000000000824151509000001081605002600100000000
+2021-08-24 15:15:09.103[                 ]INFO [m.controller.Request:172][request-wstirtanadi] Response Iso Biller : {"MTI":"0110","57":"003","12":"0824151502"}
+2021-08-24 15:15:09.103[                 ]INFO [m.controller.Request:176][request-wstirtanadi] Response ISO Setelah Convert JSON : {"MTI":"0110","57":"003","12":"0824151502"}
+2021-08-24 15:15:46.544[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 20732 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:15:46.547[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:15:48.875[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.673 seconds (JVM running for 3.46)
+2021-08-24 15:15:56.212[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:15:56.309[                 ]INFO [m.controller.Request:148][request-wstirtanadi] bit41 : 
+2021-08-24 15:15:56.318[                 ]INFO [m.controller.Request:171][request-wstirtanadi] Request Iso to Biller : 00730100822000008280000080000000000000000824151556000001081605002600100000000
+2021-08-24 15:15:56.318[                 ]INFO [m.controller.Request:172][request-wstirtanadi] Response Iso Biller : {"MTI":"0110","57":"003","12":"0824151549"}
+2021-08-24 15:15:56.319[                 ]INFO [m.controller.Request:176][request-wstirtanadi] Response ISO Setelah Convert JSON : {"MTI":"0110","57":"003","12":"0824151549"}
+2021-08-24 15:17:11.134[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 2104 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:17:11.137[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:17:13.487[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.697 seconds (JVM running for 3.491)
+2021-08-24 15:17:16.397[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:17:16.496[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000009
+2021-08-24 15:17:16.505[                 ]INFO [m.controller.Request:173][request-wstirtanadi] Request Iso to Biller : 00730100822000008280000080000000000000000824151716000001081605002600120000009
+2021-08-24 15:17:16.506[                 ]INFO [m.controller.Request:174][request-wstirtanadi] Response Iso Biller : {"MTI":"0110","57":"003","12":"0824151709"}
+2021-08-24 15:17:16.506[                 ]INFO [m.controller.Request:178][request-wstirtanadi] Response ISO Setelah Convert JSON : {"MTI":"0110","57":"003","12":"0824151709"}
+2021-08-24 15:18:23.207[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:18:23.259[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000009
+2021-08-24 15:18:23.286[                 ]INFO [m.controller.Request:173][request-wstirtanadi] Request Iso to Biller : 00730100822000008280000080000000000000000824151823000002071217000300120000009
+2021-08-24 15:18:23.286[                 ]INFO [m.controller.Request:174][request-wstirtanadi] Response Iso Biller : {"MTI":"0110","57":"003","12":"0824151816"}
+2021-08-24 15:18:23.286[                 ]INFO [m.controller.Request:178][request-wstirtanadi] Response ISO Setelah Convert JSON : {"MTI":"0110","57":"003","12":"0824151816"}
+2021-08-24 15:18:32.785[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:18:32.830[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000009
+2021-08-24 15:18:32.870[                 ]INFO [m.controller.Request:173][request-wstirtanadi] Request Iso to Biller : 00730100822000008280000080000000000000000824151832000003071217000300120000009
+2021-08-24 15:18:32.871[                 ]INFO [m.controller.Request:174][request-wstirtanadi] Response Iso Biller : {"MTI":"0110","57":"003","12":"0824151826"}
+2021-08-24 15:18:32.871[                 ]INFO [m.controller.Request:178][request-wstirtanadi] Response ISO Setelah Convert JSON : {"MTI":"0110","57":"003","12":"0824151826"}
+2021-08-24 15:20:22.353[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 22760 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:20:22.357[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:20:24.746[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.754 seconds (JVM running for 3.578)
+2021-08-24 15:20:28.918[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:20:29.028[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000009
+2021-08-24 15:20:43.191[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:22:19.113[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:23:26.844[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 11180 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:23:26.847[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:23:29.252[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.74 seconds (JVM running for 3.546)
+2021-08-24 15:23:32.199[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:24:07.917[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 23216 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:24:07.920[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:24:10.434[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.888 seconds (JVM running for 3.68)
+2021-08-24 15:24:14.654[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:24:58.767[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:25:17.129[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 6328 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:25:17.132[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:25:19.434[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.65 seconds (JVM running for 3.428)
+2021-08-24 15:25:25.376[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:29:44.046[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 18428 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:29:44.049[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:29:46.472[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.766 seconds (JVM running for 3.547)
+2021-08-24 15:29:52.519[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:29:52.620[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000009
+2021-08-24 15:30:06.012[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:30:26.152[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 22012 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:30:26.155[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:30:28.455[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.701 seconds (JVM running for 3.484)
+2021-08-24 15:30:34.017[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:30:34.110[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000009
+2021-08-24 15:30:47.570[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:31:26.671[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 17900 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:31:26.674[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:31:29.086[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.757 seconds (JVM running for 3.551)
+2021-08-24 15:32:04.445[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:32:04.539[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000009
+2021-08-24 15:32:04.547[                 ]INFO [m.controller.Request:173][request-wstirtanadi] Request Iso to Biller : 00730100822000008280000080000000000000000824153204000001071217000300120000009
+2021-08-24 15:32:04.548[                 ]INFO [m.controller.Request:174][request-wstirtanadi] Response Iso Biller : {"MTI":"0810","57":"003","12":"0824153157"}
+2021-08-24 15:32:04.548[                 ]INFO [m.controller.Request:178][request-wstirtanadi] Response ISO Setelah Convert JSON : {"MTI":"0810","57":"003","12":"0824153157"}
+2021-08-24 15:32:41.065[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 20756 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:32:41.069[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:32:43.425[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.695 seconds (JVM running for 3.531)
+2021-08-24 15:32:53.074[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:32:53.176[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000009
+2021-08-24 15:32:53.185[                 ]INFO [m.controller.Request:173][request-wstirtanadi] Request Iso to Biller : 00730100822000008280000080000000000000000824153253000001071217000300120000009
+2021-08-24 15:32:53.185[                 ]INFO [m.controller.Request:174][request-wstirtanadi] Response Iso Biller : {"MTI":"0810","57":"003","12":"0824153246"}
+2021-08-24 15:32:53.185[                 ]INFO [m.controller.Request:178][request-wstirtanadi] Response ISO Setelah Convert JSON : {"MTI":"0810","57":"003","12":"0824153246"}
+2021-08-24 15:33:17.039[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 10104 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:33:17.046[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:33:20.110[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 3.552 seconds (JVM running for 4.624)
+2021-08-24 15:33:54.225[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:33:54.338[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000009
+2021-08-24 15:33:54.353[                 ]INFO [m.controller.Request:173][request-wstirtanadi] Request Iso to Biller : 00730100822000008280000080000000000000000824153354000001071217000300120000009
+2021-08-24 15:33:54.354[                 ]INFO [m.controller.Request:174][request-wstirtanadi] Response Iso Biller : {"MTI":"0810","57":"003","12":"0824153347"}
+2021-08-24 15:33:54.354[                 ]INFO [m.controller.Request:178][request-wstirtanadi] Response ISO Setelah Convert JSON : {"MTI":"0810","57":"003","12":"0824153347"}
+2021-08-24 15:35:03.224[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 21916 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:35:03.231[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:35:06.062[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 3.322 seconds (JVM running for 4.356)
+2021-08-24 15:35:12.888[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:35:13.002[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000009
+2021-08-24 15:39:59.377[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 21300 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:39:59.383[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:40:02.197[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 3.313 seconds (JVM running for 4.387)
+2021-08-24 15:40:15.252[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:40:24.957[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000009
+2021-08-24 15:40:36.597[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:40:48.287[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:40:58.315[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 3764 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:40:58.318[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:41:00.693[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.717 seconds (JVM running for 3.505)
+2021-08-24 15:41:04.206[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:43:21.466[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 5372 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:43:21.469[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:43:23.892[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.772 seconds (JVM running for 3.587)
+2021-08-24 15:43:27.451[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:43:27.557[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000002
+2021-08-24 15:43:27.745[                 ]INFO [m.controller.Request:173][request-wstirtanadi] Request Iso to Biller : 00730100822000008280000080000000000000000824154327000001071217000300120000002
+2021-08-24 15:43:27.745[                 ]INFO [m.controller.Request:174][request-wstirtanadi] Response Iso Biller : {"48":"05410AR SITORUS12SEI MENCIRIM04RT.202070458-D04null04null","33":"0712170003","65":"","MTI":"0110","7":"0824154327","39":"001","40":"001","25":"0007","41":"20000002","57":"000","11":"000001","12":"0824154321"}
+2021-08-24 15:43:27.746[                 ]INFO [m.controller.Request:178][request-wstirtanadi] Response ISO Setelah Convert JSON : {"48":"05410AR SITORUS12SEI MENCIRIM04RT.202070458-D04null04null","33":"0712170003","65":"","MTI":"0110","7":"0824154327","39":"001","40":"001","25":"0007","41":"20000002","57":"000","11":"000001","12":"0824154321"}
+2021-08-24 15:44:01.710[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:44:45.084[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:45:05.875[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 21812 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:45:05.879[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:45:08.317[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.828 seconds (JVM running for 3.645)
+2021-08-24 15:45:13.300[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:45:13.400[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000002
+2021-08-24 15:45:13.555[                 ]INFO [m.controller.Request:173][request-wstirtanadi] Request Iso to Biller : 00730100822000008280000080000000000000000824154513000001071217000300120000002
+2021-08-24 15:45:13.556[                 ]INFO [m.controller.Request:174][request-wstirtanadi] Response Iso Biller : {"48":"05410AR SITORUS12SEI MENCIRIM04RT.202070458-D04null04null","33":"0712170003","65":"","MTI":"0110","7":"0824154513","39":"001","40":"001","25":"0007","41":"20000002","57":"000","11":"000001","12":"0824154506"}
+2021-08-24 15:45:13.556[                 ]INFO [m.controller.Request:178][request-wstirtanadi] Response ISO Setelah Convert JSON : {"48":"05410AR SITORUS12SEI MENCIRIM04RT.202070458-D04null04null","33":"0712170003","65":"","MTI":"0110","7":"0824154513","39":"001","40":"001","25":"0007","41":"20000002","57":"000","11":"000001","12":"0824154506"}
+2021-08-24 15:48:51.131[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 11944 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:48:51.134[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:48:53.507[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.721 seconds (JVM running for 3.535)
+2021-08-24 15:48:57.784[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:48:57.884[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000002
+2021-08-24 15:50:24.018[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 22296 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:50:24.021[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:50:26.329[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.654 seconds (JVM running for 3.472)
+2021-08-24 15:50:33.106[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:50:33.217[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000002
+2021-08-24 15:50:47.425[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:51:50.256[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 17136 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:51:50.259[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:51:52.651[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.742 seconds (JVM running for 3.532)
+2021-08-24 15:51:56.840[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:51:56.957[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000002
+2021-08-24 15:51:56.960[                 ]INFO [m.controller.Request:169][request-wstirtanadi] Request Iso to Biller : 0057010002200000828000000824155156000001071217000300120000002
+2021-08-24 15:59:25.555[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 22844 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 15:59:25.558[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 15:59:27.917[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.708 seconds (JVM running for 3.5)
+2021-08-24 15:59:32.677[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 15:59:32.776[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000002
+2021-08-24 15:59:32.780[                 ]INFO [m.controller.Request:169][request-wstirtanadi] Request Iso to Biller : 00730100822000008280000080000000000000000824155932000001071217000300120000002
+2021-08-24 15:59:32.957[                 ]INFO [m.controller.Request:175][request-wstirtanadi] Request Iso to Biller : 00730100822000008280000080000000000000000824155932000001071217000300120000002
+2021-08-24 15:59:32.958[                 ]INFO [m.controller.Request:176][request-wstirtanadi] Response Iso Biller : {"48":"05410AR SITORUS12SEI MENCIRIM04RT.202070458-D04null04null","33":"0712170003","65":"","MTI":"0110","7":"0824155932","39":"001","40":"001","25":"0007","41":"20000002","57":"000","11":"000001","12":"0824155926"}
+2021-08-24 15:59:32.958[                 ]INFO [m.controller.Request:180][request-wstirtanadi] Response ISO Setelah Convert JSON : {"48":"05410AR SITORUS12SEI MENCIRIM04RT.202070458-D04null04null","33":"0712170003","65":"","MTI":"0110","7":"0824155932","39":"001","40":"001","25":"0007","41":"20000002","57":"000","11":"000001","12":"0824155926"}
+2021-08-24 16:29:50.628[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 21668 (E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\WORKSPACE\GATEWAY\WSTNISO\GatewayTirtanadi)
+2021-08-24 16:29:50.631[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-08-24 16:29:52.960[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 2.682 seconds (JVM running for 3.493)
+2021-08-24 16:29:57.979[                 ]INFO [m.controller.Request:115][request-wstirtanadi] Start Inquiry
+2021-08-24 16:29:58.096[                 ]INFO [m.controller.Request:150][request-wstirtanadi] bit41 : 20000002
+2021-08-24 16:29:58.102[                 ]INFO [m.controller.Request:169][request-wstirtanadi] Request Iso to Biller : 00730100822000008280000080000000000000000824162958000001211206072200120000002
+2021-08-24 16:29:58.298[                 ]INFO [m.controller.Request:175][request-wstirtanadi] Request Iso to Biller : 00730100822000008280000080000000000000000824162958000001211206072200120000002
+2021-08-24 16:29:58.299[                 ]INFO [m.controller.Request:176][request-wstirtanadi] Response Iso Biller : {"48":"06617RUMDIS KODAM I\/BB07GAVERTA04RT.3022114XII K-51\/K-14404null04null","33":"2112060722","65":"","MTI":"0110","7":"0824162958","39":"001","40":"001","25":"0007","41":"20000002","57":"000","11":"000001","12":"0824162951"}
+2021-08-24 16:29:58.299[                 ]INFO [m.controller.Request:180][request-wstirtanadi] Response ISO Setelah Convert JSON : {"48":"06617RUMDIS KODAM I\/BB07GAVERTA04RT.3022114XII K-51\/K-14404null04null","33":"2112060722","65":"","MTI":"0110","7":"0824162958","39":"001","40":"001","25":"0007","41":"20000002","57":"000","11":"000001","12":"0824162951"}
