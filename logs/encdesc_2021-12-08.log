@@ -1,0 +1,66 @@
+2021-12-08 10:23:41.316[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 18216 (E:\SWITCHING_PAPANG\Java\EncDec\EncryptDescrypt\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\Java\EncDec\EncryptDescrypt)
+2021-12-08 10:23:41.320[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-12-08 10:23:44.008[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 3.074 seconds (JVM running for 3.963)
+2021-12-08 10:23:55.070[                 ]INFO [m.controller.Request:100][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:25:02.637[                 ]INFO [m.controller.Request:100][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:25:25.961[                 ]INFO [m.controller.Request:100][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:25:35.301[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 10904 (E:\SWITCHING_PAPANG\Java\EncDec\EncryptDescrypt\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\Java\EncDec\EncryptDescrypt)
+2021-12-08 10:25:35.308[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-12-08 10:25:38.366[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 3.605 seconds (JVM running for 5.02)
+2021-12-08 10:25:42.964[                 ]INFO [m.controller.Request:100][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:25:48.365[                 ]INFO [m.controller.Request:100][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:32:59.445[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 16780 (E:\SWITCHING_PAPANG\Java\EncDec\EncryptDescrypt\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\Java\EncDec\EncryptDescrypt)
+2021-12-08 10:32:59.454[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-12-08 10:33:02.732[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 3.845 seconds (JVM running for 5.086)
+2021-12-08 10:33:06.336[                 ]INFO [m.controller.Request:103][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:33:56.377[                 ]INFO [m.controller.Request:103][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:34:26.664[                 ]INFO [m.controller.Request:103][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:34:29.041[                 ]INFO [m.controller.Request:103][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:35:56.512[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 14912 (E:\SWITCHING_PAPANG\Java\EncDec\EncryptDescrypt\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\Java\EncDec\EncryptDescrypt)
+2021-12-08 10:35:56.518[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-12-08 10:35:59.501[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 3.529 seconds (JVM running for 4.797)
+2021-12-08 10:36:17.974[                 ]INFO [m.controller.Request:103][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:36:22.223[                 ]INFO [m.controller.Request:155][ws-enc-dec] Start Request Decrypt
+2021-12-08 10:36:24.415[                 ]INFO [m.controller.Request:155][ws-enc-dec] Start Request Decrypt
+2021-12-08 10:36:26.578[                 ]INFO [m.controller.Request:103][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:38:25.345[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 524 (E:\SWITCHING_PAPANG\Java\EncDec\EncryptDescrypt\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\Java\EncDec\EncryptDescrypt)
+2021-12-08 10:38:25.351[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-12-08 10:38:28.091[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 3.294 seconds (JVM running for 4.376)
+2021-12-08 10:38:40.743[                 ]INFO [m.controller.Request:103][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:38:44.672[                 ]INFO [m.controller.Request:103][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:38:53.405[                 ]INFO [m.controller.Request:155][ws-enc-dec] Start Request Decrypt
+2021-12-08 10:47:48.206[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 16912 (E:\SWITCHING_PAPANG\Java\EncDec\EncryptDescrypt\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\Java\EncDec\EncryptDescrypt)
+2021-12-08 10:47:48.214[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-12-08 10:47:49.839[                 ]INFO [FactoryPostProcessor:39]Post-processing PropertySource instances
+2021-12-08 10:47:49.887[                 ]INFO [pertySourceConverter:56]Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-12-08 10:47:49.889[                 ]INFO [pertySourceConverter:56]Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-12-08 10:47:49.889[                 ]INFO [pertySourceConverter:56]Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-12-08 10:47:49.889[                 ]INFO [pertySourceConverter:56]Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-12-08 10:47:49.889[                 ]INFO [pertySourceConverter:56]Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-12-08 10:47:49.890[                 ]INFO [pertySourceConverter:56]Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-12-08 10:47:49.890[                 ]INFO [pertySourceConverter:56]Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-12-08 10:47:49.972[                 ]INFO [ltLazyPropertyFilter:31]Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-12-08 10:47:50.144[                 ]INFO [LazyPropertyResolver:35]Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-12-08 10:47:50.149[                 ]INFO [LazyPropertyDetector:35]Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-12-08 10:47:50.700[                 ]INFO [DefaultLazyEncryptor:32]Found Custom Encryptor Bean org.jasypt.encryption.pbe.PooledPBEStringEncryptor@2619cb76 with name: jasyptStringEncryptor
+2021-12-08 10:47:51.183[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 3.531 seconds (JVM running for 4.648)
+2021-12-08 10:47:57.012[                 ]INFO [m.controller.Request:103][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:48:14.677[                 ]INFO [m.controller.Request:103][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:48:24.819[                 ]INFO [m.controller.Request:155][ws-enc-dec] Start Request Decrypt
+2021-12-08 10:57:19.853[                 ]INFO [otMybatisApplication:55]Starting SpringBootMybatisApplication on DESKTOP-RKJ18PE with PID 18620 (E:\SWITCHING_PAPANG\Java\EncDec\EncryptDescrypt\target\classes started by Mr Papang in E:\SWITCHING_PAPANG\Java\EncDec\EncryptDescrypt)
+2021-12-08 10:57:19.861[                 ]INFO [otMybatisApplication:651]No active profile set, falling back to default profiles: default
+2021-12-08 10:57:21.660[                 ]INFO [FactoryPostProcessor:39]Post-processing PropertySource instances
+2021-12-08 10:57:21.704[                 ]INFO [pertySourceConverter:56]Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-12-08 10:57:21.707[                 ]INFO [pertySourceConverter:56]Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-12-08 10:57:21.707[                 ]INFO [pertySourceConverter:56]Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-12-08 10:57:21.707[                 ]INFO [pertySourceConverter:56]Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-12-08 10:57:21.708[                 ]INFO [pertySourceConverter:56]Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-12-08 10:57:21.708[                 ]INFO [pertySourceConverter:56]Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-12-08 10:57:21.708[                 ]INFO [pertySourceConverter:56]Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-12-08 10:57:21.808[                 ]INFO [ltLazyPropertyFilter:31]Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-12-08 10:57:21.932[                 ]INFO [LazyPropertyResolver:35]Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-12-08 10:57:21.936[                 ]INFO [LazyPropertyDetector:35]Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-12-08 10:57:22.685[                 ]INFO [DefaultLazyEncryptor:32]Found Custom Encryptor Bean org.jasypt.encryption.pbe.PooledPBEStringEncryptor@2e0fdc83 with name: jasyptStringEncryptor
+2021-12-08 10:57:23.266[                 ]INFO [otMybatisApplication:61]Started SpringBootMybatisApplication in 3.939 seconds (JVM running for 4.966)
+2021-12-08 10:57:23.506[                 ]INFO [m.controller.Request:103][ws-enc-dec] Start Request Encrypt
+2021-12-08 10:57:40.173[                 ]INFO [m.controller.Request:155][ws-enc-dec] Start Request Decrypt
